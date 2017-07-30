@@ -10,6 +10,8 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    let handicapCalculator = HandicapCalculator()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +21,14 @@ class FirstViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    // Outlets
+    @IBOutlet weak var handicapIndexOutlet: UILabel!
+    
+    // Actions
+    @IBAction func calculate(_ sender: UIButton) {
+        handicapIndexOutlet.text = handicapCalculator.calculate()
+    }
 
 }
 
