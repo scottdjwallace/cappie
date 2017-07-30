@@ -1,2 +1,2 @@
 # cappie
-An iOS USGA Handicapp Calculator
+An iOS USGA Handicap Calculator
