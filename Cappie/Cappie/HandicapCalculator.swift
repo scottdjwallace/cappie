@@ -98,9 +98,7 @@ class HandicapCalculator {
         // get the num of lowest diffs and return those in a list,
         // sort, then return the subset
         var new = differentials.sorted()
-        print("sprted list \(new)")
         let it: [Double] = Array(new[0...numOfDifferentialsToUse-1])
-        print("subset list \(it)")
         return it
     }
     

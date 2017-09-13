@@ -13,6 +13,9 @@
 		5EF7C0971F2D614300FC94AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF7C0951F2D614300FC94AA /* Main.storyboard */; };
 		5EF7C0991F2D614300FC94AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF7C0981F2D614300FC94AA /* Assets.xcassets */; };
 		5EF7C09C1F2D614300FC94AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF7C09A1F2D614300FC94AA /* LaunchScreen.storyboard */; };
+		5EF7C0A81F2D648900FC94AA /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF7C0A71F2D648900FC94AA /* Score.swift */; };
+		5EF7C0AA1F2D649400FC94AA /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF7C0A91F2D649400FC94AA /* Course.swift */; };
+		5EF7C0AC1F2D6A4500FC94AA /* HandicapCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF7C0AB1F2D6A4500FC94AA /* HandicapCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		5EF7C0981F2D614300FC94AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EF7C09B1F2D614300FC94AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EF7C09D1F2D614300FC94AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EF7C0A71F2D648900FC94AA /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		5EF7C0A91F2D649400FC94AA /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		5EF7C0AB1F2D6A4500FC94AA /* HandicapCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandicapCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 			children = (
 				5EF7C08F1F2D614300FC94AA /* AppDelegate.swift */,
 				5EF7C0911F2D614300FC94AA /* FirstViewController.swift */,
+				5EF7C0AB1F2D6A4500FC94AA /* HandicapCalculator.swift */,
+				5EF7C0A61F2D647B00FC94AA /* Models */,
 				5EF7C0931F2D614300FC94AA /* SecondViewController.swift */,
 				5EF7C0951F2D614300FC94AA /* Main.storyboard */,
 				5EF7C0981F2D614300FC94AA /* Assets.xcassets */,
@@ -65,6 +73,15 @@
 				5EF7C09D1F2D614300FC94AA /* Info.plist */,
 			);
 			path = Cappie;
+			sourceTree = "<group>";
+		};
+		5EF7C0A61F2D647B00FC94AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5EF7C0A71F2D648900FC94AA /* Score.swift */,
+				5EF7C0A91F2D649400FC94AA /* Course.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +159,9 @@
 			files = (
 				5EF7C0941F2D614300FC94AA /* SecondViewController.swift in Sources */,
 				5EF7C0901F2D614300FC94AA /* AppDelegate.swift in Sources */,
+				5EF7C0AC1F2D6A4500FC94AA /* HandicapCalculator.swift in Sources */,
+				5EF7C0AA1F2D649400FC94AA /* Course.swift in Sources */,
+				5EF7C0A81F2D648900FC94AA /* Score.swift in Sources */,
 				5EF7C0921F2D614300FC94AA /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
